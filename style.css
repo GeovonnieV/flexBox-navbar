@@ -1,0 +1,49 @@
+html, body{
+    /* reset default styles */
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+#nav-wrapper{
+    background-color: rgba(0, 153, 255, 0.808);
+    /* height of navbar */
+    height: 2rem;
+    /* moves all of its items to one row/ horizontally */
+    display: flex;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 20px;
+}
+
+
+img{
+    /* so img is so compressed */
+    height: 4rem; 
+    /* pushes the image all the way to the right */
+    margin-right: auto;
+}
+
+h1{
+    /*  */
+    margin-right: 60%;
+}
+
+ul{
+    /* gets rid of bullets */
+    list-style: none;
+}
+
+/*  */
+li{
+    /* the li are block elements thats whky they were stacked on each other */
+    display: inline-block;
+    /* gives space between the list items */
+    margin-right: 2rem;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
